@@ -7,7 +7,7 @@ import AdminLogin from "./pages/AdminLogin/AdminLogin.jsx";
 
 const App = () => {
   return (
-    <Router basename="/beta-test-react-posts">
+    <Router>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/posts" element={<Posts />} />

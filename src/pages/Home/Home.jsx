@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Home.module.css";
 import toast, { Toaster } from "react-hot-toast";
-// import postsData from "../../services/postsData";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
