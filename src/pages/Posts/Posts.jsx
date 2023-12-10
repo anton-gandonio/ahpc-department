@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Posts.module.css";
-import postsData  from "../../services/postsData.js";
 import axios from "axios";
 
 const Posts = () => {
