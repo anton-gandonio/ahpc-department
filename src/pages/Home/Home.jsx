@@ -41,7 +41,7 @@ const Home = () => {
       name: userName,
       body: userComplaint,
     };
-    axios.post(`${serverUrl}/postsData`, newPost).then(() => {
+    axios.post(`${serverUrl}`, newPost).then(() => {
       setIsUpdated((prevState) => !prevState);
       notify();
     });
