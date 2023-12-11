@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+// import second from '../../../.env'
 
 const Home = () => {
   const navigateTo = useNavigate();
